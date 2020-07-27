@@ -12,8 +12,6 @@ export const getEmptyTileIndex = (board) => board.indexOf(EMPTY_TILE);
 
 // Formula for determining solvability:
 
-// If the grid width is odd, then the number of inversions in a solvable situation is even.
-
 // If the grid width is even,
 // and the blank is on an even row counting from the bottom (second-last, fourth-last etc),
 // then the number of inversions in a solvable situation is odd.
